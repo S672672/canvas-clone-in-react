@@ -1,0 +1,123 @@
+.div1 {
+  width: 100vw;
+  flex-direction: row;
+  background-color:white;
+  display: flex;
+  height: 100vh;
+}
+.div2 {
+  background-color:black;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  padding-top: 10px;
+  text-align: center;
+}
+.navbar {
+  color: black;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar {
+  font-size: 30px;
+  font-weight: 700;
+  height: 30px;
+}
+.side {
+  font-size: 20px;
+  font-weight: 600;
+}
+.side:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.navitem {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+  position: sticky;
+  height: 70px;
+  border-bottom: 1px solid rgb(229, 207, 207);
+}
+.Icon {
+  font-size: 30px;
+  width: 80%;
+}
+.settingIcon {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+}
+.cardsHed {
+  height: 150px;
+  background-color: blueviolet;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.cards {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 6px 10px 10px rgb(203, 176, 176);
+
+}
+.footer {
+  display: flex;
+  gap: 30px;
+}
+.cardBd {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+
+}
+.bodysync {
+}
+
+.head:hover {
+  border-bottom: 1px solid red;
+  cursor: pointer;
+  width: 140px;
+}
+.subhead:hover {
+  border-bottom: 1px solid red;
+  cursor: pointer;
+  width: 50px;
+
+}
+.p{
+
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    font-size: 50px;
+    padding-right: 10px;
+
+
+    justify-content: flex-end;
+    cursor: pointer;
+    text-align: center;
+    /* background-color: red; */
+ 
+
+}
