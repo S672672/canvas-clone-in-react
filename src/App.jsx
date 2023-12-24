@@ -24,8 +24,8 @@ function App() {
           </div>
         </div>
 
-        <div className="navbar">
-          <div className="navitem">
+        <div className="body">
+          <div className="navbar">
             <div className="Icon">
               <h1>DashBoard</h1>
             </div>
