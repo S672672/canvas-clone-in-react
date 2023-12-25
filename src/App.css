@@ -44,3 +44,24 @@
   padding: 15px;
   cursor: pointer;
 }
+.cards{
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 6px 10px 10px rgb(203, 176, 176);
+
+}
+.contentbody{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80wh;
+}
+.card1{
+  background-color: blue;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './assets/rklogo.png';
+import Card from './card';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
     </div>
       <img src='./src/assets/setting.png' />
     </div>
+    </div>
+    <div className='contentbody'>
+    <Card threedots = '...' subject = "copiler design" subjectcode = "2324SOE" year = "2023-24" message = "./src/assets/message.png" announcement = "./src/assets/announcement.png" notes = "./src/assets/assignment.png" ></Card>
     </div>
     </div>
     </>
