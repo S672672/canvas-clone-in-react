@@ -22,20 +22,54 @@ function App() {
       calender
     </div>
     </div>
-    <div>
+    <div className='middlebody'>
     <div className='nbar'>
     <div className='nitems'>
     Dashboard
     </div>
       <img src='./src/assets/setting.png' />
     </div>
+     <div className ='contentbody'>
+    <Card 
+    threedots = "..." 
+    subject = "compiler design" 
+    subjectcode = "2324SOE" 
+    year = "2023-24" />
+    <Card 
+    threedots = "..." 
+    subject = "compiler design" 
+    subjectcode = "2324SOE" 
+    year = "2023-24" />
+    <Card 
+    threedots = "..." 
+    subject = "compiler design" 
+    subjectcode = "2324SOE" 
+    year = "2023-24" />
+    <Card 
+    threedots = "..." 
+    subject = "compiler design" 
+    subjectcode = "2324SOE" 
+    year = "2023-24" />
+     <Card 
+    threedots = "..." 
+    subject = "compiler design" 
+    subjectcode = "2324SOE" 
+    year = "2023-24" />
+    <Card 
+    threedots = "..." 
+    subject = "compiler design" 
+    subjectcode = "2324SOE" 
+    year = "2023-24" />
+    </div> 
     </div>
-    <div className='contentbody'>
-    <Card threedots = '...' subject = "copiler design" subjectcode = "2324SOE" year = "2023-24" message = "./src/assets/message.png" announcement = "./src/assets/announcement.png" notes = "./src/assets/assignment.png" ></Card>
+    <div className='thirdsection'>
+      <div className='thirdsecnav'>
+      To do
+      </div>
     </div>
     </div>
     </>
   )
 }
 
-export default App
+export default App;
