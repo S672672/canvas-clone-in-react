@@ -97,3 +97,17 @@
   font-weight: bold;
   font-size: 20px;
 }
+.todolist{
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 5px;
+  transition:  transform 0.3s ease-out;
+  cursor: pointer;
+}
+.todolist:hover{
+  transform: scale(1.05);
+  color: black;
+
+}
