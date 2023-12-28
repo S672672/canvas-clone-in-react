@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './assets/rklogo.png';
 import Card from './card';
+import Todo from './todo';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       calender
     </div>
     </div>
+    <div className='secthird'>
     <div className='middlebody'>
     <div className='nbar'>
     <div className='nitems'>
@@ -66,9 +68,8 @@ function App() {
       <div className='thirdsecnav'>
       To do
       </div>
-      <div className='todolist'>
-        Assignment-6
-      </div>
+      <Todo Experiment = "Experiment-1" subjectcodes = "21SOECE-CE234" deadline = "10 points~31 dec" />
+    </div>
     </div>
     </div>
     </>
