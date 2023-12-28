@@ -1,11 +1,14 @@
 .sidebar{
   width: 120px;
+  height: 100vh;
   background-color: black;
   display: flex;
   color: white;
   align-items: center;
   flex-direction: column;
   gap: 50px;
+  position: fixed;
+  overflow: hidden;
 }
 .sidebar img{
   height: 100px;
@@ -90,6 +93,7 @@
 .thirdsection{
   margin-top: 70px;
   display: flex;
+  margin-right: 50px;
   flex:1;
   flex-direction: column;
 }
@@ -128,4 +132,5 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 150px;
 }
