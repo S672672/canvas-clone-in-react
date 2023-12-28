@@ -69,6 +69,9 @@ function App() {
       To do
       </div>
       <Todo Experiment = "Experiment-1" subjectcodes = "21SOECE-CE234" deadline = "10 points~31 dec" />
+      <Todo Experiment = "Experiment-1" subjectcodes = "21SOECE-CE234" deadline = "10 points~31 dec" />
+      <Todo Experiment = "Experiment-1" subjectcodes = "21SOECE-CE234" deadline = "10 points~31 dec" />
+      <Todo Experiment = "Experiment-1" subjectcodes = "21SOECE-CE234" deadline = "10 points~31 dec" />
     </div>
     </div>
     </div>

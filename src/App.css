@@ -89,7 +89,9 @@
 }
 .thirdsection{
   margin-top: 70px;
-  max-width:fit-content;
+  display: flex;
+  flex:1;
+  flex-direction: column;
 }
 .thirdsecnav{
   border-bottom: 1px solid rgb(229, 207, 207);
@@ -97,12 +99,11 @@
   font-size: 30px;
 }
 .todolist{
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
   cursor: pointer;
   margin-top: 10px;
+  line-height: 0.5;
   min-height: fit-content;
-  background-color: gray;
 
 }
 .todolist h1{
