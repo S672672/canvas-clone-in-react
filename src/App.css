@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: black;
   display: flex;
+  z-index: 1000;
   color: white;
   align-items: center;
   flex-direction: column;
@@ -41,6 +42,9 @@
   height: 70px;
   border-bottom: 1px solid rgb(229, 207, 207);
   background-color: white;
+  position: sticky;
+  top: 10px;
+  z-index: 100;
 }
 .nbar img{
   border-radius: 20px;
@@ -155,4 +159,26 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 150px;
+}
+.middlesec{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
+}
+.middlesec:hover{
+  text-decoration: underline red;
+}
+.subject{
+  font-weight: bold;
+  font-size: 20px;
+  color: purple;
+}
+.subjectcode{
+  font-size: 20px;
+  color: darkgray;
+}
+.year{
+  font-size: 15px;
+  color:dimgrey;
 }

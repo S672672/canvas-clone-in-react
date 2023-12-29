@@ -49,33 +49,33 @@ function App() {
     <Card 
     threedots = "..." 
     subject = "compiler design" 
-    subjectcode = "2324SOE" 
-    year = "2023-24" />
+    subjectcode = "2324SOE-CE931" 
+    year = "2023-24(even)" />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
-    subjectcode = "2324SOE" 
-    year = "2023-24" />
+    subjectcode = "2324SOE-CE931" 
+    year = "2023-24(even)" />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
-    subjectcode = "2324SOE" 
-    year = "2023-24" />
+    subjectcode = "2324SOE-CE931" 
+    year = "2023-24(even)" />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
-    subjectcode = "2324SOE" 
-    year = "2023-24" />
+    subjectcode = "2324SOE-CE931" 
+    year = "2023-24(even)" />
      <Card 
     threedots = "..." 
     subject = "compiler design" 
-    subjectcode = "2324SOE" 
-    year = "2023-24" />
+    subjectcode = "2324SOE-CE931" 
+    year = "2023-24(even)" />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
-    subjectcode = "2324SOE" 
-    year = "2023-24" />
+    subjectcode = "2324SOE-CE931" 
+    year = "2023-24(even)" />
     </div> 
     </div>
     <div className='thirdsection'>
