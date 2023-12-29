@@ -63,6 +63,26 @@
 .cards:hover{
   transform: scale(1.05);
 }
+.iconnitems img{
+  width: 80px;
+  border-radius: 20px;
+  height: 80px;
+}
+.iconnitems{
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sidenavitems{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
 .header{
   height: 150px;
   background-color: blueviolet;

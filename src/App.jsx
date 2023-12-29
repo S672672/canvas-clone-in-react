@@ -10,17 +10,31 @@ function App() {
     <div className='fscreen'>
     <div className='sidebar'>
       <img src= "./src/assets/rklogo.png" />
+      <div className='sidenavitems'>
+      <div className='iconnitems'>
+      <img src='./src/assets/Account.png'></img>
     <div className='sideitems'>
       Account
     </div>
+    </div>
+    <div className='iconnitems'>
+    <img src='./src/assets/dashboard.png'></img>
     <div className='sideitems'>
       Dashboard
     </div>
+    </div>
+    <div className='iconnitems'>
+    <img src='./src/assets/courses-icon.png'></img>
     <div className='sideitems'>
       courses
     </div>
+    </div>
+    <div className='iconnitems'>
+    <img src='./src/assets/calender-icon.png'></img>
     <div className='sideitems'>
       calender
+    </div>
+    </div>
     </div>
     </div>
     <div className='secthird'>
