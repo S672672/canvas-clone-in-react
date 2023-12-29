@@ -50,32 +50,40 @@ function App() {
     threedots = "..." 
     subject = "compiler design" 
     subjectcode = "2324SOE-CE931" 
-    year = "2023-24(even)" />
+    year = "2023-24(even)"
+    announcement="./src/assets/announcement.png" notes="./src/assets/notes.png" discussion="./src/assets/discussion.png" />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
     subjectcode = "2324SOE-CE931" 
-    year = "2023-24(even)" />
+    year = "2023-24(even)"
+    announcement="./src/assets/announcement.png" notes="./src/assets/notes.png" discussion="./src/assets/discussion.png" />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
     subjectcode = "2324SOE-CE931" 
-    year = "2023-24(even)" />
+    year = "2023-24(even)" 
+    announcement="./src/assets/announcement.png" notes="./src/assets/notes.png" discussion="./src/assets/discussion.png"
+    />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
     subjectcode = "2324SOE-CE931" 
-    year = "2023-24(even)" />
+    year = "2023-24(even)" 
+    announcement="./src/assets/announcement.png" notes="./src/assets/notes.png" discussion="./src/assets/discussion.png"
+    />
      <Card 
     threedots = "..." 
     subject = "compiler design" 
     subjectcode = "2324SOE-CE931" 
-    year = "2023-24(even)" />
+    year = "2023-24(even)" 
+    announcement="./src/assets/announcement.png" notes="./src/assets/notes.png" discussion="./src/assets/discussion.png"
+    />
     <Card 
     threedots = "..." 
     subject = "compiler design" 
     subjectcode = "2324SOE-CE931" 
-    year = "2023-24(even)" />
+    year = "2023-24(even)" announcement="./src/assets/announcement.png" notes="./src/assets/notes.png" discussion="./src/assets/discussion.png" />
     </div> 
     </div>
     <div className='thirdsection'>
