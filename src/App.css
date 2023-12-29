@@ -38,9 +38,9 @@
   width: 78vw;
   justify-content: space-between;
   margin: 10px;
-  position: sticky;
   height: 70px;
   border-bottom: 1px solid rgb(229, 207, 207);
+  background-color: white;
 }
 .nbar img{
   border-radius: 20px;
@@ -147,6 +147,8 @@
 
 }
 .middlebody{
+  display: flex;
+  flex-direction: column;
 } 
 .secthird{
   display: flex;
