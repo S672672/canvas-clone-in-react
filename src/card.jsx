@@ -21,7 +21,6 @@ export default function Card({threedots, subject, subjectcode, year, announcemen
         <img src={discussion} alt="discussion" />
       </div>
     </div>
-    <Outlet />
     </link>
   );
 }
