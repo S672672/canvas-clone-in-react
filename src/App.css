@@ -195,3 +195,9 @@
 .footer img:hover{
   color: red;
 }
+.HomeContainer{
+  height: 200px;
+  width: 100vw;
+  border-width: 3;
+  border-color: black;
+}
