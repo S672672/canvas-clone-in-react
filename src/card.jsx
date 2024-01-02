@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.css'
 import './InsideCard/home.jsx'
-import {Outlet, link} from 'react-router-dom'
 
 export default function Card({threedots, subject, subjectcode, year, announcement, notes, discussion }) {
   return (
-    <link to = '/Home'>
     <div className='cards'>
       <div className='header'>
         <p className='threedots'>{threedots}</p>
@@ -21,6 +19,5 @@ export default function Card({threedots, subject, subjectcode, year, announcemen
         <img src={discussion} alt="discussion" />
       </div>
     </div>
-    </link>
   );
 }
